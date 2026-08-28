@@ -9,5 +9,5 @@
 ## Print da tela da página criada (Curriculum Vitae)
 ![curriculo](PrintCurriculo.png)
 
-`<Coloque aqui o print da tela de inspeção do seu navegador>`
-![ inspeção](PrintCurriculoIns.png)
+## Coloque aqui o print da tela de inspeção do seu navegador
+![inspeção](PrintCurriculoIns.png)
