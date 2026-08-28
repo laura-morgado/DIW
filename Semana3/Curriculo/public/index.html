@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Currículo — Laura Morgado Ferreira</title>
+  <meta name="description" content="Currículo em HTML/CSS de Laura Morgado Ferreira" />
+
+  <!-- Fonte (substitua se preferir) -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="projetos.html">Projetos</a></li>
+        <li><a href="portfolio.html">Portfólio</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <article class="cv-wrap" role="article" aria-label="Currículo">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar" aria-label="Informações pessoais">
+      <div class="photo" aria-hidden="true">
+        <img src="fotoprofissional.jpeg" alt="Foto de João Pedro" style="width:100%;height:100%;object-fit:cover;border-radius:10px;"/>
+      </div>
+      <div class="profile">
+        <div class="name">Laura Morgado Ferreira</div>
+        <div class="role">Estudante de Ciência da Computação</div>
+      </div>
+
+      <div class="contact">
+        <h3>Contato</h3>
+        <p><strong>Email:</strong> <br><a href="mailto:lauramorgado1206@gmail.com">lauramorgado1206@gmail.com</a></p>
+        <p><strong>Telefone:</strong> <br><a href="tel:+5531984404650">+55 (31) 98440-4650</a></p>
+        <p><strong>Localização:</strong> <br>Belo Horizonte, Brasil</p>
+
+        <div style="margin-top:10px">
+          <a class="muted" href="www.linkedin.com/in/laura-morgado-">LinkedIn</a>
+        </div>
+      </div>
+
+      <div class="section">
+        <h3>Competências</h3>
+        <div class="skill-list">
+          <span class="skill">C</span>
+          <span class="skill">Java</span>
+          <span class="skill">HTML5</span>
+        </div>
+      </div>
+
+      <div class="section">
+        <h3>Idiomas</h3>
+        <p class="muted">Português — Nativo</p>
+        <p class="muted">Inglês — Fluente</p>
+      </div>
+
+      <div class="section">
+        <h3>Interesses</h3>
+        <span class="tag">Ciber</span>
+        <span class="tag">Dados</span>
+        <span class="tag">Tecnologia</span>
+      </div>
+
+    </aside>
+
+    <!-- MAIN -->
+    <main class="main">
+      <header class="headline">
+        <div>
+          <h2 style="margin:0">Laura Morgado Ferreira</h2>
+          <div class="muted">Estudante de Ciência da Computação interessada em tecnologia</div>
+        </div>
+        <div style="text-align:right">
+          <div class="muted">Disponível para para estágio e trabalho voluntário</div>
+        </div>
+      </header>
+
+      <section class="summary item">
+        <h3>Resumo profissional</h3>
+        <p class="desc">Graduanda em Ciência da Computação na PUC Minas. Atualmente, estou buscando construir uma base sólida em lógica de programação e em desenvolver o pensamento crítico e analítico para lidar com a resolução de problemas complexos através da tecnologia. Estou aberta a oportunidades de estágio, com o objetivo de aplicar o meu conhecimento acadêmico na prática, além de aprender com profissionais experientes e contribuir com a sociedade.</p>
+      </section>
+
+      <section class="experience item">
+        <h3>Experiência</h3>
+
+        <div class="exp-row">
+          <div class="meta">
+            <div>
+              <h4>Minas Signs - Jovem Aprendiz</h4>
+              <div class="muted">2022 — Presente</div>
+            </div>
+            <div class="muted">Belo Horizonte</div>
+          </div>
+          <p class="desc">Design e confecção de adesivos para sinalização indicativa, promocional e de orientação.</p>
+        </div>
+      </section>
+
+      <section class="item">
+        <h3>Educação</h3>
+        <div style="margin-top:8px">
+          <h4>PUC Minas — Ciência da Computação</h4>
+          <div class="muted">2026 — Presente</div>
+          <p class="desc">Projetos acadêmicos em desenvolvimento.</p>
+        </div>
+      </section>
+
+      <section class="item">
+        <h3>Projetos / Portfólio</h3>
+        <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(180px,1fr)); gap:12px; margin-top:10px">
+          <div style="padding:10px; border-radius:8px; border:1px solid rgba(15,23,42,0.04)">
+            <strong>Portfólio Pessoal</strong>
+            <p class="muted"><a href="https://github.com/laura-morgado">GitHub</a></p>
+          </div>
+        </div>
+      </section>
+
+      <footer style="margin-top:22px; border-top:1px dashed rgba(15,23,42,0.04); padding-top:12px">
+        <div class="muted">Disponível para entrevistas.</div>
+      </footer>
+
+    </main>
+  </article>
+</body>
+</html>
