@@ -1,4 +1,4 @@
-# RepositorioDIW
+# Repositorio DIW
 Repositorio criado para os arquivos da aula de DIW
 
 Laura
